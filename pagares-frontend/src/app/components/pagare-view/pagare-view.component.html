@@ -1,0 +1,104 @@
+<div *ngIf="loading" class="loading-container">
+  <div class="loading-spinner">Cargando...</div>
+</div>
+
+<div *ngIf="error" class="error-container">
+  {{ error }}
+</div>
+
+<div *ngIf="pagare && !loading" class="pagare-container">
+  <div class="actions-bar">
+    <button (click)="goBack()" class="btn-back">← Volver</button>
+    <div class="actions-right">
+      <button (click)="downloadPDF()" class="btn-pdf">📥 Descargar PDF</button>
+      <button (click)="printPagare()" class="btn-print">🖨️ Imprimir</button>
+    </div>
+  </div>
+
+  <div class="pagare-wrap">
+    <div class="pagare-card">
+
+      <div class="pagare-header">
+        <div>
+          <div class="pagare-header-title">P A G A R É</div>
+          <div class="pagare-header-subtitle">Título de crédito — Artículo 170 LGTOC</div>
+        </div>
+        <div class="pagare-header-sub">
+          <span>No. {{ pagare.numeroExpediente }}</span><br>
+          Lugar y fecha de expedición<br>
+          <span>{{ pagare.lugarSuscripcion }}, {{ formatDate(pagare.fechaElaboracion) }}</span>
+        </div>
+      </div>
+
+      <div class="pagare-amount-bar">
+        <span class="pagare-amount-label">Valor del documento:</span>
+        <span class="pagare-amount-symbol">$</span>
+        <span class="pagare-amount-value">{{ formatCurrency(pagare.monto).replace('$', '').replace('MXN', '').trim() }}</span>
+        <span class="pagare-mn">M.N.</span>
+      </div>
+
+      <div class="pagare-body">
+
+        <p class="pagare-text">
+          Por este pagaré me obligo incondicionalmente a pagar a la orden de
+          <strong>{{ pagare.beneficiario }}</strong>,
+          la cantidad de <strong>{{ formatCurrency(pagare.monto) }}</strong>
+          ({{ numberToWords(pagare.monto) }} pesos 00/100 M.N.).
+          La cantidad señalada deberá ser cubierta el día
+          {{ formatDate(pagare.fechaVencimiento) }},
+          en {{ pagare.lugarPago }},
+          lugar designado para efectuar el pago.
+        </p>
+
+        <p class="pagare-text">
+          {{ pagare.promesaPago }}
+          Este pagaré causa intereses moratorios a la tasa de
+          <strong>5%</strong> mensual en caso de incumplimiento,
+          a partir de la fecha de vencimiento y hasta la liquidación total del adeudo.
+          Para todos los efectos legales derivados de este documento, el suscriptor se somete
+          a las leyes y tribunales competentes que correspondan.
+        </p>
+
+        <hr class="divider">
+
+        <div>
+          <div class="section-title">👤 Datos del suscriptor </div>
+          <div class="fields">
+            <div class="field full">
+              <div class="field-value centered">{{ nombreUsuario || '______________________________' }}</div>
+            </div>
+            <div class="field full">
+              <span class="field-label">Lugar de suscripción</span>
+              <div class="field-value">{{ pagare.lugarSuscripcion || '______________________________' }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-title">📄 Beneficiario </div>
+          <div class="fields">
+            <div class="field full">
+              <div class="field-value centered">{{ pagare.beneficiario }}</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pagare-footer">
+        <div class="sign-box">
+          <div class="sign-line"></div>
+          <div class="sign-label">Firma del suscriptor</div>
+          <div class="sign-name">Nombre: {{ pagare.firma || '______________________________' }}</div>
+        </div>
+        <div class="sello-container">
+          <div class="sello">
+            <div class="sello-text">SELLO<br>/<br>HUELLA</div>
+          </div>
+          <div class="sello-label">Sello o huella digital</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

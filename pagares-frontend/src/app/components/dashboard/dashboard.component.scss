@@ -1,0 +1,97 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.dashboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.role-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+}
+
+.user-info button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-info button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dashboard-content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #667eea;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.actions button {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.actions button:hover {
+  background: #5568d3;
+}

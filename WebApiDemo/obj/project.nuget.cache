@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "dgSpecHash": "T/iV/5ZBS1E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mario\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.10\\microsoft.aspnetcore.authentication.cookies.2.3.10.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0\\microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.0\\microsoft.entityframeworkcore.design.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0\\microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.8\\microsoft.entityframeworkcore.tools.10.0.8.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.1\\swashbuckle.aspnetcore.10.2.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.1\\swashbuckle.aspnetcore.swagger.10.2.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.1\\swashbuckle.aspnetcore.swaggergen.10.2.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.1\\swashbuckle.aspnetcore.swaggerui.10.2.1.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition.attributedmodel\\6.0.0\\system.composition.attributedmodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition.convention\\6.0.0\\system.composition.convention.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition.hosting\\6.0.0\\system.composition.hosting.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Authentication.Cookies no se eliminará. Considere la posibilidad de quitar este paquete de las dependencias, ya que es probable que no sea necesario.",
+      "projectPath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Cookies",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

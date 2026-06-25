@@ -1,0 +1,144 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  z-index: 1000;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+
+  &.collapsed {
+    width: 70px;
+  }
+
+  .sidebar-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    .logo h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .toggle-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: white;
+      padding: 8px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+
+  .sidebar-nav {
+    flex: 1;
+    padding: 20px 0;
+    overflow-y: auto;
+
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      .nav-item {
+        margin-bottom: 8px;
+
+        .nav-link {
+          width: 100%;
+          padding: 12px 20px;
+          background: transparent;
+          border: none;
+          color: white;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          cursor: pointer;
+          transition: background 0.3s ease;
+          font-size: 1rem;
+
+          &:hover {
+            background: rgba(255, 255, 255, 0.1);
+          }
+
+          &.active {
+            background: rgba(255, 255, 255, 0.2);
+            font-weight: 600;
+          }
+
+          &.logout {
+            color: #ff6b6b;
+
+            &:hover {
+              background: rgba(255, 107, 107, 0.2);
+            }
+          }
+
+          svg {
+            flex-shrink: 0;
+          }
+
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-footer {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .logout-btn {
+      width: 100%;
+      padding: 12px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-size: 1rem;
+      border-radius: 8px;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      svg {
+        flex-shrink: 0;
+      }
+
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .sidebar {
+    width: 70px;
+
+    &.collapsed {
+      width: 70px;
+    }
+  }
+}
