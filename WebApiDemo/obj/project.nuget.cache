@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T/iV/5ZBS1E=",
+  "dgSpecHash": "pDJDBi8jgCs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+  "projectFilePath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mario\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -42,10 +42,10 @@
     {
       "code": "NU1510",
       "level": "Warning",
-      "message": "PackageReference Microsoft.AspNetCore.Authentication.Cookies no se eliminará. Considere la posibilidad de quitar este paquete de las dependencias, ya que es probable que no sea necesario.",
-      "projectPath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+      "message": "PackageReference Microsoft.AspNetCore.Authentication.Cookies no se eliminará. Este paquete está disponible automáticamente y no es necesario hacer referencia a él explícitamente. Quite el elemento PackageReference.",
+      "projectPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+      "filePath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
       "libraryId": "Microsoft.AspNetCore.Authentication.Cookies",
       "targetGraphs": [
         "net10.0"

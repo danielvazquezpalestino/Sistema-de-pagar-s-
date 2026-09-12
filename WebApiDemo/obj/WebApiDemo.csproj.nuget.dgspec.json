@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj": {}
+    "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj": {
+    "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
         "projectName": "WebApiDemo",
-        "projectPath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\WebApiDemo.csproj",
+        "projectPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
         "packagesPath": "C:\\Users\\Mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mario\\Downloads\\demo (1)\\webapidemo\\obj\\",
+        "outputPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
