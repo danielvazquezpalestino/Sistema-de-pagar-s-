@@ -1905,11 +1905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\webapidemo\\WebApiDemo.csproj",
       "projectName": "WebApiDemo",
-      "projectPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\WebApiDemo.csproj",
+      "projectPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\webapidemo\\WebApiDemo.csproj",
       "packagesPath": "C:\\Users\\Mario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\WebApiDemo\\obj\\",
+      "outputPath": "C:\\Users\\Mario\\Documents\\GitHub\\Sistema-de-pagar-s-\\webapidemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
